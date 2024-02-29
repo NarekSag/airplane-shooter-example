@@ -1,0 +1,19 @@
+{
+    "name": "Develop.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "VContainer",
+        "UniTask",
+        "UniRx",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
