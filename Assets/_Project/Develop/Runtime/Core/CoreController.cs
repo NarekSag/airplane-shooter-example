@@ -62,9 +62,7 @@ namespace Develop.Runtime.Core
 
         private void LoadPlayer()
         {
-            // TODO: Implement mobile input and move this logic from here
-            KeyboardInput input = new KeyboardInput();
-            Player = _planeFactory.CreatePlayer(RuntimeConstants.Airplanes.Corncob, input);
+            Player = _planeFactory.CreatePlayer(RuntimeConstants.Airplanes.Corncob);
             Player.Input.ShootClick.Subscribe(_ => _shootingService.Shoot(Player)).AddTo(_disposables);
             Player.IsDead.Subscribe(isDead => OnPlayerDead(isDead)).AddTo(_disposables);
             Player.gameObject.SetActive(false);

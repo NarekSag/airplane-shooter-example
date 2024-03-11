@@ -2,9 +2,7 @@
     "name": "Develop.Editor",
     "rootNamespace": "",
     "references": [
-        "UEPT.Editor",
-        "UEPT.Backend",
-        "UEPT.Shared"
+        "GUID:8f587d55c1dad4345a9617e0e625ff19"
     ],
     "includePlatforms": [
         "Editor",

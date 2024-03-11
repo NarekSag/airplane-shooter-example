@@ -108,9 +108,6 @@ namespace Develop.Runtime.Core.Airplane
 
         public void Initialize(AirplaneConfig planeConfig, IInput input)
         {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-
             _airplaneAnimation = GetComponent<AirplaneAnimation>();
             _airplaneSound = GetComponent<AirplaneSound>();
 

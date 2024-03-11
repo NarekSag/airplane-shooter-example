@@ -16,7 +16,7 @@ namespace Develop.Editor
         public static void OpenCoreScene()
         {
             EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
-            EditorSceneManager.OpenScene("Assets/_Project/Scenes/3.Core.unity");
+            EditorSceneManager.OpenScene("Assets/_Project/Scenes/2.Core.unity");
         }
     }
 }
